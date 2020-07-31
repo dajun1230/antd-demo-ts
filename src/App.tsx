@@ -18,10 +18,10 @@ const columns = [
         style: {
           maxWidth: 300,
           overflow: 'hidden',
-          // whiteSpace: 'nowarp', // 只要一取消注视就会报错。
+          whiteSpace: 'nowrap', // 只要一取消注视就会报错。
           textOverflow:'ellipsis',
           cursor:'pointer'
-        }
+        } as React.CSSProperties,
       }
     },
   },
